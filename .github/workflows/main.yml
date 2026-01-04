@@ -23,7 +23,8 @@ jobs:
     - name: Copy app into firmware
       run: |
         mkdir -p flipperzero-firmware/applications_user/ble_spam
-        cp -r ./* flipperzero-firmware/applications_user/ble_spam
+        cp application.* flipperzero-firmware/applications_user/ble_spam
+
 
     - name: Build FAP
       run: |
