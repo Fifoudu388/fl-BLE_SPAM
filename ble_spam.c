@@ -575,3 +575,6 @@ int32_t ble_spam(void* p) {
     free(state);
     return 0;
 }
+
+#include <applications/services/applications.h>
+FURI_APP_ENTRY(ble_spam);
