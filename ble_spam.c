@@ -5,6 +5,11 @@
 #include <furi_hal_random.h>
 #include "ble_spam_icons.h"
 #include "protocols/_registry.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdbool.h>
+
 
 // NAPI
 // TODO: Use __attribute__((aligned(2))) instead?
